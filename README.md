@@ -22,6 +22,22 @@ This tool guides you through a complete scientific investigation by:
 - **JSON Export** - Results saved in structured JSON format
 - **Flexible Input** - Multiple ways to specify research questions
 
+## TODO
+
+- [ ] Write a comprehensive research paper documenting the scientific method automation framework
+- [ ] Connect to real-world data gathering from actual experiments
+- [ ] Integration with laboratory equipment APIs for automated data collection
+- [ ] Support for importing experimental data from CSV/Excel files
+- [ ] Add visualization capabilities for experimental results (charts, graphs)
+- [ ] Implement statistical analysis tools for experimental data validation
+- [ ] Integration with symbolic calculation engines (SymPy, Wolfram Alpha, Mathematica, Python)
+- [ ] Add support for multiple hypothesis testing and comparison
+- [ ] Automated paper generation from results (abstract, introduction, methods, results, discussion, conclusion)
+- [ ] Create web interface for easier interaction
+- [ ] Add support for collaborative research (multi-user features)
+- [ ] Integration with research databases (PubMed, arXiv, etc.)
+- [ ] Export results to scientific paper format (LaTeX, academic templates)
+
 ## Requirements
 
 - Python 3.7+
@@ -138,19 +154,3 @@ MIT License - feel free to use this project for any purpose.
 - Experimental data generation is simulated by the LLM (not real experiments)
 - Results quality depends on the LLM model capabilities
 - Best used for theoretical investigations and research planning
-
-## TODO
-
-- [ ] Write a comprehensive research paper documenting the scientific method automation framework
-- [ ] Connect to real-world data gathering from actual experiments
-- [ ] Integration with laboratory equipment APIs for automated data collection
-- [ ] Support for importing experimental data from CSV/Excel files
-- [ ] Add visualization capabilities for experimental results (charts, graphs)
-- [ ] Implement statistical analysis tools for experimental data validation
-- [ ] Integration with symbolic calculation engines (SymPy, Wolfram Alpha, Mathematica, Python)
-- [ ] Add support for multiple hypothesis testing and comparison
-- [ ] Automated paper generation from results (abstract, introduction, methods, results, discussion, conclusion)
-- [ ] Create web interface for easier interaction
-- [ ] Add support for collaborative research (multi-user features)
-- [ ] Integration with research databases (PubMed, arXiv, etc.)
-- [ ] Export results to scientific paper format (LaTeX, academic templates)
