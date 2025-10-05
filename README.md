@@ -1,6 +1,6 @@
 # Scientific Method Automation
 
-Automate the scientific method using LLM calls. This Python script implements the core steps of the scientific method through AI-powered analysis and reasoning.
+Automated scientific method using large language models.
 
 ## Overview
 
@@ -15,12 +15,12 @@ This tool guides you through a complete scientific investigation by:
 
 ## Features
 
-- 🔬 **Complete Scientific Method Pipeline** - Automated workflow through all scientific method steps
-- 🌐 **Web Search Integration** - Uses web search for gathering observations and context
-- 📊 **Experimental Data Generation** - Can simulate realistic experimental data
-- 📝 **Comprehensive Logging** - Saves detailed logs with timestamps
-- 💾 **JSON Export** - Results saved in structured JSON format
-- 🎯 **Flexible Input** - Multiple ways to specify research questions
+- **Complete Scientific Method Pipeline** - Automated workflow through all scientific method steps
+- **Web Search Integration** - Uses web search for gathering observations and context
+- **Experimental Data Generation** - Can simulate realistic experimental data
+- **Comprehensive Logging** - Saves detailed logs with timestamps
+- **JSON Export** - Results saved in structured JSON format
+- **Flexible Input** - Multiple ways to specify research questions
 
 ## Requirements
 
@@ -64,7 +64,7 @@ SCIENTIFIC_METHOD_QUESTION="What causes earthquakes?" python scientific_method.p
 ### Options
 
 - `--question`, `-q` - Specify the scientific question to investigate
-- `--no-data` - Skip experimental data generation (faster, theoretical analysis only)
+- `--no-data` - Skip experimental data generation
 
 ### Examples
 
@@ -119,17 +119,6 @@ To use a different model, modify this in the `ScientificMethod.__init__` method 
 
 ## Development
 
-### Project Structure
-
-```
-scientific-method/
-├── scientific_method.py    # Main script
-├── requirements.txt        # Python dependencies
-├── .env                   # API keys (not in repo)
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
-```
-
 ### Contributing
 
 Contributions are welcome! Feel free to:
@@ -150,17 +139,19 @@ MIT License - feel free to use this project for any purpose.
 - Results quality depends on the LLM model capabilities
 - Best used for theoretical investigations and research planning
 
-## Troubleshooting
+## TODO
 
-**API Key Issues:**
-- Ensure your `.env` file contains a valid OpenAI API key
-- Check that the key has access to the model specified
-
-**Model Not Available:**
-- If GPT-5 is not available, update the model name in the code to an available model (e.g., "gpt-4", "gpt-4-turbo")
-
-**Import Errors:**
-- Run `pip install -r requirements.txt` to install all dependencies
+- [ ] Connect to real-world data gathering from actual experiments
+- [ ] Integration with laboratory equipment APIs for automated data collection
+- [ ] Support for importing experimental data from CSV/Excel files
+- [ ] Add visualization capabilities for experimental results (charts, graphs)
+- [ ] Implement statistical analysis tools for experimental data validation
+- [ ] Integration with symbolic calculation engines (SymPy, Wolfram Alpha, Mathematica, Python)
+- [ ] Add support for multiple hypothesis testing and comparison
+- [ ] Create web interface for easier interaction
+- [ ] Add support for collaborative research (multi-user features)
+- [ ] Integration with research databases (PubMed, arXiv, etc.)
+- [ ] Export results to scientific paper format (LaTeX, academic templates)
 
 ## Acknowledgments
 
