@@ -154,7 +154,3 @@ MIT License - feel free to use this project for any purpose.
 - [ ] Add support for collaborative research (multi-user features)
 - [ ] Integration with research databases (PubMed, arXiv, etc.)
 - [ ] Export results to scientific paper format (LaTeX, academic templates)
-
-## Acknowledgments
-
-Built with OpenAI's API for automated scientific reasoning and investigation planning.
