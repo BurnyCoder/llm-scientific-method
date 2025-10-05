@@ -30,13 +30,17 @@ This tool guides you through a complete scientific investigation by:
 - [ ] Support for importing experimental data from CSV/Excel files
 - [ ] Add visualization capabilities for experimental results (charts, graphs)
 - [ ] Implement statistical analysis tools for experimental data validation
-- [ ] Integration with symbolic calculation engines (SymPy, Wolfram Alpha, Mathematica, Python)
+- [ ] Integration with symbolic calculation engines (SymPy, Wolfram Alpha, Mathematica)
 - [ ] Add support for multiple hypothesis testing and comparison
 - [ ] Automated paper generation from results (abstract, introduction, methods, results, discussion, conclusion)
 - [ ] Create web interface for easier interaction
 - [ ] Add support for collaborative research (multi-user features)
 - [ ] Integration with research databases (PubMed, arXiv, etc.)
 - [ ] Export results to scientific paper format (LaTeX, academic templates)
+- [ ] Give LLMs access to Python compiler
+- [ ] Give LLMs access to all sorts of scientific tools
+- [ ] Implement validation and double-checking mechanisms after each scientific method step
+- [ ] Add step-by-step verification prompts to ensure quality and accuracy of each phase
 
 ## Requirements
 

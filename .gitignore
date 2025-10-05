@@ -43,12 +43,6 @@ venv.bak/
 *~
 .DS_Store
 
-# Project specific
-scientific_method_*.log
-scientific_method_results.json
-*.log
-*.json
-
 # Testing
 .pytest_cache/
 .coverage
